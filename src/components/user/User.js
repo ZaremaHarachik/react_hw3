@@ -5,13 +5,9 @@ export default function User({item,choseUser}) {
     }
     return (
     <div>
+
       {item.id} - {item.name}
-      <button onClick={onClickUserChose}
-
-      >details
-      </button>
-
-
+      <button onClick={onClickUserChose}>details</button>
 
     </div>
   );
